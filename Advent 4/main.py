@@ -60,7 +60,7 @@ def findMas(grid):
 
 
 sum = findHorizontal(grid)+findVertical(grid)+findLeftLeaning(grid)+findRightLeaning(grid)
-
+print(sum)
 print(findMas(grid))
 
 

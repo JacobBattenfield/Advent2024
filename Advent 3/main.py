@@ -9,7 +9,7 @@ dont_pattern = r"don't\(\)"
 
 def mul(a,b):
     return a*b;
-with open("input.txt","r")as file:
+with open("sample.txt","r")as file:
     for line in file:
         tokens = re.findall(r"mul\(\d{1,3},\d{1,3}\)|do\(\)|don't\(\)",line)
         for token in tokens:
