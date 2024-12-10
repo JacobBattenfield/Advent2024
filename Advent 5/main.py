@@ -68,6 +68,7 @@ def SumMiddles(pages):
 #Part One Answer
 print(SumMiddles(validPages))
 for page in invalidPages:
+    print(invalidPages[int(page)])
     fixInvalid(rules,page)
 print(SumMiddles(invalidPages))
     
